@@ -38,16 +38,8 @@ france({ nomCom: 'list',
   async (dest, zk, commandeOptions) => {
     const { ms, arg, repondre } = commandeOptions;
     const { start} = new Date().getTime()
-    return repondre('*listℝ𝕌𝕊ℍ✅✅✅✅✅✅✅✅✅✅✅✅
-        ✅✅✅✅✅✅
-♻𝕝𝕚𝕤𝕥
-♻𝕞𝕖𝕟𝕦
-!!*\n ```' + 2000 + '``` *ms*') 
+    return repondre('*list▰▰▰▰▰hi!!*\n ```' + 2000 + '``` *ms*') 
     const { end } = new Date().getTime()
-    await zok.sendMessage('*listℝ𝕌𝕊ℍ✅✅✅✅✅✅✅✅✅✅✅✅
-        ✅✅✅✅✅✅
-♻𝕝𝕚𝕤𝕥
-♻𝕞𝕖𝕟𝕦
-!*\n ```' + (end - start) + '``` *ms*')
+    await zok.sendMessage('*list▰▰▰▰▰hi!*\n ```' + (end - start) + '``` *ms*')
   }
 )
